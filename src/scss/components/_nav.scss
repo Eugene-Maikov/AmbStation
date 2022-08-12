@@ -1,0 +1,18 @@
+.nav {
+  background-color: var(--accent-color);
+}
+.nav__list {
+  @include flex-all-sb;
+}
+
+.nav__link {
+  color: var(--light-color);
+  font-size: 15px;
+  padding: 7px 8px;
+  display: block;
+  transition: all .3s ease-in-out;
+
+  &:hover{
+    background-color: var(--dark-color);
+  }
+}
