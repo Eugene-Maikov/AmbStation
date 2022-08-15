@@ -1,0 +1,32 @@
+.message {
+  background-image: url("../img/bg-message2.jpg");
+  @include bg-cover;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  height: 40vh;
+
+  &__inner {
+    @include flex-all-center;
+  }
+ 
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--light-color);
+  }
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--light-color);
+  }
+  &__btn {
+    padding: 10px;
+    background-color: var(--light-color);
+  }
+}
