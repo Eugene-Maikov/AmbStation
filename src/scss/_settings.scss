@@ -105,3 +105,14 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.section-offset{
+  margin: 30px 0;
+}
+.title{
+  margin: 0;
+  color: var(--title-color);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 160%;
+}
