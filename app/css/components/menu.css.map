@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/menu.scss","components/menu.css"],"names":[],"mappings":"AAAA;EACE,qCAAA;ACCF","file":"components/menu.css","sourcesContent":[".graph-modal__content{\n  background-color: var(--accent-color);\n}\n",".graph-modal__content {\n  background-color: var(--accent-color);\n}"]}

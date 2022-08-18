@@ -106,13 +106,22 @@ a {
   position: relative;
 }
 
-.section-offset{
-  margin: 30px 0;
+.section-offset {
+  padding: 60px 0;
 }
-.title{
+.title {
   margin: 0;
+  padding-bottom: 20px;
   color: var(--title-color);
   font-size: 60px;
   font-weight: 700;
   line-height: 160%;
+}
+.btn {
+  height: 62px;
+  padding: 12px 45px;
+  line-height: 1.2;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 500;
 }
