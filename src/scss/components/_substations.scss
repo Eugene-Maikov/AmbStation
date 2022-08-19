@@ -1,7 +1,6 @@
 .substations {
   background-image: url("../img/bg-substations1.jpg");
   @include bg-cover;
-  // min-width: 0;
   &__container {
     position: relative;
   }

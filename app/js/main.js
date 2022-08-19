@@ -176,6 +176,27 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".substations_
     sensitivity: 1
   }
 });
+const swiperLogos = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".logos__slider", {
+  slidesPerView: 4,
+  navigation: {
+    nextEl: ".logos__btn-next",
+    prevEl: ".logos__btn-prev"
+  },
+  // Управление клавиатурой
+  keyboard: {
+    // Вкл/Выкл
+    enable: true,
+    // Только когда доскролим
+    onlyInViewport: true,
+    // Управление клавишами pageUp, pageDown
+    pageUpDown: true
+  },
+  // Управление колесом мыши
+  mousewheel: {
+    // Чувствительность
+    sensitivity: 1
+  }
+});
 
 /***/ }),
 
