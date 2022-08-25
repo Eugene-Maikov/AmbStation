@@ -11,6 +11,9 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_modals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/modals */ "./src/js/components/modals.js");
 /* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/slider */ "./src/js/components/slider.js");
+/* harmony import */ var _components_navMobile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/navMobile */ "./src/js/components/navMobile.js");
+/* harmony import */ var _components_navMobile__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_navMobile__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -139,6 +142,26 @@ __webpack_require__.r(__webpack_exports__);
 // Реализация модального окна
 
 const modal = new graph_modal__WEBPACK_IMPORTED_MODULE_0__["default"]();
+
+/***/ }),
+
+/***/ "./src/js/components/navMobile.js":
+/*!****************************************!*\
+  !*** ./src/js/components/navMobile.js ***!
+  \****************************************/
+/***/ (() => {
+
+document.addEventListener("DOMContentLoaded", function () {
+  let close = document.querySelector(".navMobile__close");
+  let burgerNav = document.querySelector(".burger__nav");
+  let menu = document.querySelector(".navMobile");
+  burgerNav.addEventListener("click", function () {
+    menu.classList.add("navMobile_active");
+  });
+  close.addEventListener("click", function () {
+    menu.classList.remove("navMobile_active");
+  });
+});
 
 /***/ }),
 

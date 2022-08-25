@@ -118,6 +118,10 @@ a {
 
 .section-offset {
   padding: 60px 0;
+
+   @media (max-width: (600px)){
+    padding: 40px 0;
+   }
 }
 .title {
   margin: 0;
@@ -126,6 +130,15 @@ a {
   font-size: 60px;
   font-weight: 700;
   line-height: 160%;
+
+  @media (max-width: (600px)) {
+    margin: 0;
+    padding-bottom: 15px;
+    color: var(--title-color);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+  }
 }
 .title--light{
   color: var(--light-color);

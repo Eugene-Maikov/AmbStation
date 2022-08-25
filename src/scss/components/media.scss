@@ -1,0 +1,206 @@
+ @media (max-width: (1260px)) {
+   .hero__title {
+     padding: 27px 30px;
+     font-size: 50px;
+   }
+ }
+
+ @media (max-width: (990px)) {
+   .header__content img {
+     width: 65px;
+   }
+
+   .header__title {
+     font-size: 11px;
+     width: 350px;
+   }
+
+   .header__text {
+     font-size: 16px;
+     margin-top: 8px;
+   }
+
+   .header__addres {
+     font-size: 12px;
+     width: 230px;
+
+     p {
+       margin: 5px 0;
+     }
+   }
+
+   .nav__inner {
+     justify-content: center;
+   }
+
+   .nav__list {
+     display: none;
+   }
+
+   .nav__buttons {
+     margin-bottom: 7px;
+   }
+
+   //  modal ===============================
+   .graph-modal__container {
+     width: 99%;
+     margin: 10px auto;
+   }
+
+   .menu__column {
+     width: 270px;
+   }
+
+   .menu__title {
+     font-size: 18px;
+   }
+
+   .menu__link {
+     font-size: 14px;
+   }
+
+   //  hero ===============================
+   .hero {
+     background-position: -13px 0;
+   }
+
+   .hero__title {
+     width: 100%;
+     top: 66%;
+     text-align: center;
+   }
+
+   .banner__list {
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 10px;
+   }
+
+   //  message ===============================
+   .message__title {
+     font-size: 30px;
+     text-align: center;
+     width: 100%;
+   }
+
+   .message__subtitle {
+     width: 100%;
+     font-size: 16px;
+     text-align: center;
+   }
+
+   .btn {
+     height: 50px;
+     font-size: 20px;
+   }
+
+   .message {
+     height: auto;
+   }
+
+   .message__img {
+     margin-right: 0;
+   }
+
+   .message__inner {
+     flex-direction: column;
+   }
+ }
+
+ @media (max-width: (700px)) {
+   .header__addres {
+     display: none;
+   }
+
+   //  modal ===============================
+   .graph-modal__container {
+     margin: 10px auto;
+     padding: 10px;
+   }
+
+   .menu {
+     margin: 10px;
+   }
+
+   .menu__column {
+     width: 270px;
+   }
+
+   .menu__title {
+     font-size: 16px;
+     line-height: 135%;
+   }
+
+   .menu__link {
+     font-size: 12px;
+   }
+
+   //  hero ===============================
+   .hero__title {
+     font-size: 40px;
+   }
+
+ }
+
+ @media (max-width: (600px)) {
+
+   //  hero ===============================
+   .hero__title {
+     font-size: 30px;
+    }
+    //  message ===============================
+    .message__img {
+      width: 70px;
+      margin-bottom: 15px;
+    }
+    .message__title {
+      font-size: 26px;
+    }
+    .message__subtitle{
+      margin-bottom: 28px;
+    }
+    // about ====================
+    .about{
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+ }
+
+
+
+ @media (max-width: (470px)) {
+   .header__content img {
+     width: 60px;
+   }
+
+   .header__title {
+     font-size: 10px;
+     width: 100%;
+   }
+
+   .header__text {
+     font-size: 12px;
+     margin-top: 8px;
+   }
+
+   .header__social {
+     display: none;
+   }
+
+   //  hero ===============================
+   .hero__title {
+     font-size: 24px;
+   }
+ }
+
+ @media (max-width: (370px)) {
+
+   //  hero ===============================
+   .hero__title {
+     font-size: 20px;
+   }
+
+   .banner__list {
+     grid-template-columns: repeat(1, 1fr);
+   }
+ }
