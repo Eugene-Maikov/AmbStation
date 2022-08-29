@@ -157,8 +157,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let menu = document.querySelector(".navMobile");
   let body = document.querySelector(".page__body");
   burgerNav.addEventListener("click", function () {
-    menu.classList.add("navMobile_active");
     body.classList.add("no-scroll");
+    menu.classList.add("navMobile_active");
   });
   close.addEventListener("click", function () {
     menu.classList.remove("navMobile_active");
