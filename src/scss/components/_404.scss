@@ -1,0 +1,29 @@
+.error404 {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  text-align: center;
+  font-size: 10em;
+   color: var(--accent-color);
+}
+
+.notfound {
+  text-align: center;
+  color: var(--accent-color);
+  font-size: 2em;
+}
+
+.notfound a {
+  color: var(--accent-color);
+  font-size: 0.8em;
+}
+
+.notfound a:hover {
+  color: var(--title-color);
+  text-decoration: none;
+}

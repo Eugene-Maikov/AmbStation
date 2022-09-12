@@ -1,27 +1,19 @@
-.breadcrumbs {
+#breadcrumbs {
   margin: 20px 0;
   padding: 0;
   font-size: 14px;
   color: var(--text-grey-color);
 
-  li {
-    display: inline-block;
+  a{
+    color: var( --text-grey-color);
+    margin: 0 5px;
   }
 
-  li::before {
-    content: "\203A";
-    margin-left: 5px;
-    margin-right: 5px;
-    color: var( --text-grey-color);
-  }
-
-  li:first-child::before {
-    content: "";
-  }
-  li>a{
-    color: var( --text-grey-color);
-  }
 }
+.breadcrumb_last{
+  margin-left: 5px;
+}
+
 
 
 

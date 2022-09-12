@@ -1,0 +1,18 @@
+.structure {
+  margin-top: 40px;
+
+  &__item {
+    margin-bottom: 20px;
+
+    p {
+      margin: 0;
+      font-size: 18px;
+      margin-bottom: 7px;
+    }
+
+  }
+
+  &__name {
+    font-weight: 600;
+  }
+}

@@ -3,6 +3,9 @@
   &__container{
     position: relative;
   }
+  &__slider{
+    display: flex;
+  }
   &__item{
     background-color: #fff;
     height: 140px;

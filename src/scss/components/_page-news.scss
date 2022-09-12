@@ -1,4 +1,4 @@
-.news {
+.page-news {
   background-color: #ebeff9;
   &__inner {
     display: grid;
@@ -11,14 +11,12 @@
     border-radius: 16px;
     display: flex;
     box-shadow: 0 14px 28px rgba(164, 164, 164, 0.25), 0 10px 10px rgba(0,0,0,0.22);
-    display: flex;
   }
 
   &__left {
     margin-right: 15px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
   }
 
   &__title {
